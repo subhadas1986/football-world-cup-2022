@@ -9,7 +9,7 @@
 /* common styles or utilities */
 body{
     font-family: 'Poppins', sans-serif;
-    width: 80%;
+    width: 90%;
     margin: 30px auto;
     background-color: #ddd;
 }
@@ -17,8 +17,54 @@ body{
 
 
 /* banner part start */
+.banner-container{
+    background: #161616;
+    border-radius: 20px;
+    /* padding: 30px 30px 0 30px; */
+}
+.banner-wrapper{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
 .banner-left{
     width: 531px;
     height: 424px;
+    padding: 100px 0 60px 50px;
+}
+.banner-description .banner-title{
+    font-size: 4.5rem;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.banner-description .banner-text{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 50px;
+    text-align: left;
+}
+.banner-link{
+    text-decoration: none;
+    background: #DD0000;
+    padding: 16px 30px;
+    border-radius: 5px;
+    color: #fff;
+    transition: 0.5s;
+}
+.banner-link:hover{
+    background-color: #161616;
+    border: 1px solid #fff;
+}
+#button-icon{
+    margin-left: 15px;
+}
+.banner-right{
+    padding: 50px 50px 0 0;
+}
+.banner-right .banner-image img{
+    width: 581px;
+    height: 613px;
 }
 /* banner part end */
