@@ -1,0 +1,24 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* common styles or utilities */
+body{
+    font-family: 'Poppins', sans-serif;
+    width: 80%;
+    margin: 30px auto;
+    background-color: #ddd;
+}
+
+
+
+/* banner part start */
+.banner-left{
+    width: 531px;
+    height: 424px;
+}
+/* banner part end */
